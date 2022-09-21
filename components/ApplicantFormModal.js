@@ -5,7 +5,7 @@ const Backdrop = props => {
   return (
     <div
       onClick={props.onHide}
-      className='fixed inset-0 z-10 bg-black opacity-40'
+      className='fixed inset-0 z-10 bg-black bg-opacity-10 backdrop-blur-sm'
     ></div>
   );
 };

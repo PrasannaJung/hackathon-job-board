@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const members = () => {
+const Members = () => {
   return (
     <div className='mt-24 flex justify-between w-3/5 mx-auto'>
       <div className='rounded-sm px-6 py-3 bg-slate-800 shadow-custom'>
@@ -77,4 +77,4 @@ const members = () => {
   );
 };
 
-export default members;
+export default Members;
