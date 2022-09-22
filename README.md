@@ -10,12 +10,12 @@ We heard that people Web3 people are using Centralize website for Getting jobs.S
 ## What is Career Expo?
 
 
-Let me introduce you all to the fantastic website called Career Expo. Usually, what we do we apply for jobs on the Web2 website which I don't like To be honest, we all decided to create our own website for job boarding on Web3. At Carrer Expo, both company and the applicant can post their job requirements.  
+Let me introduce you all to the fantastic website called Career Expo. Usually, what we do we apply for jobs on the Web2 website which we don't like To be honest, we all decided to create our own website for job boarding on Web3. At Carrer Expo, both company and the applicant can post their job requirements.  
 
 
-## What it Offer
+## What it Offers?
 
-Job Board is a Decentralize platform for Job Boarding. 
+Job Board is a Decentralized platform for Job Boarding. 
 
   **-** Posting Job.
   
