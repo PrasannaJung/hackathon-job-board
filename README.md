@@ -34,8 +34,12 @@ If you visit our Website there is 2 option out there. One is for Company and oth
  
  
  <a href="https://web3.storage/"><img src="https://user-images.githubusercontent.com/76695769/191498530-9295336e-d56a-4371-8713-57528654f072.png"></a>
-
  
+ **- Moralis** - It was the first time we worked on moralis to connect the front end with a smart contract.
+ 
+  <a href="https://moralis.io/"><img src="https://user-images.githubusercontent.com/76695769/191815168-ccf822ee-caba-4d96-b3eb-0b02dc935f4e.png"></a>
+  
+
 **- Polygon**- 
  Polygon is a chain in which our project will be deployed. 
  We are using this network to keep it user-friendly for our applicant and company in terms of gas Fees
@@ -50,7 +54,7 @@ If you visit our Website there is 2 option out there. One is for Company and oth
   
 
 **- Chainlink**- 
-  "Thinking
+We have been using chainlink multiple times for price feeds. In this also we fetching Prices from chainlink Oracles.
   
   <a href="https://chain.link/"><img src="https://user-images.githubusercontent.com/76695769/191504080-068d28d7-1ce1-47ce-8252-a5a40b6b92a5.png"></a>
 
@@ -58,6 +62,10 @@ If you visit our Website there is 2 option out there. One is for Company and oth
  RainbowKit is a React library that makes it easy to add wallet connection to your dapp. It's intuitive, responsive and customizable.
  
  <a href="https://www.rainbowkit.com/"><img src="https://user-images.githubusercontent.com/76695769/191505257-b54f2331-5d56-4a41-8bf3-eac5d7a80ff5.png"></a>
+ 
+ **- XMTP** - We are using xmtp to connect Organisation with the applicant. So they can talk further regarding their jobs.
+ 
+  <a href="https://xmtp.com/"><img src="https://user-images.githubusercontent.com/76695769/191815641-2a075ab5-147a-4b99-9ee4-9f588841b584.png"></a>
 
 ## Hurdles We faced during this project
 
@@ -80,28 +88,3 @@ If you visit our Website there is 2 option out there. One is for Company and oth
 
 **-** We learned how to deploy the project on **valist**. To be honest it was quite a difficult task for us But not impossible.
 
-
-### Rough from here
-
-## targetting all bounties
-
-one of the major problems is that we have never applied to any bounties in our past . This is actually our first project where we apply for bounties . We worked so hard on this that it is a proud moment for us to annonce that despite all hardship we were able to integrate each one in our project. and proudly say  that we are working with all our sponser. @filecoin @chainlink @valist @ polygon. 
-
-##problems faced
-
-- never had i ever used to do anything with api fetching and was i used to doing from docs used this time in web3.storage and found somethings which was harder for me than the standard protocol.
-<<<<<<< HEAD
-=======
-
-- getting documentations of the project was not easy. searvhing from github and googling stuff which we couldn't figure out was one of the most diffeicult part . 
-
-- how we overcame we went to the moralis server on there we asked in teh precise section on how to integrete these things from our app . their helpfullness helped us out
-
-## how we overcame them 
-
-we planned and worked for a common time of the to continue meetings on how to proceed with the project.
-
-
-never made anything in nextjs had problem figuring out the file structure and thus figuring out how to do even the project makes so much problem.
-
->>>>>>> 10e42a38a4ba86f8ce583f7035748248097c6b7f
