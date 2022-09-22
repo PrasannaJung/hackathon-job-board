@@ -48,7 +48,8 @@ If you visit our Website there is 2 option out there. One is for Company and oth
 
  
  **- Vailist**- 
- "thinking"
+ Valist is the web3-native app store & software publishing protocol. Publish your apps and games without paying gas fees, and monetize them with Software License NFTs.
+ We are using **VALIST** to deploy our project on it.
  
  <a href="https://www.valist.io/"><img src="https://user-images.githubusercontent.com/76695769/191503826-d48052a8-ed6e-431e-9f71-fa4fd95a1169.jpg"></a>
   
