@@ -58,7 +58,7 @@
 }
 
 .code {
-  background: #fafafa;
+  /* background: #fafafa; */
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
@@ -85,13 +85,6 @@
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 400px;
   cursor: pointer;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
 }
 
 .card h2 {

@@ -29,7 +29,7 @@ const Jobs = () => {
         Look for the best jobs around:{' '}
       </h1>
 
-      <div className={' bg-zinc-600 mx-auto w-3/4 rounded-lg p-8'}>
+      <div className={' bg-neutral-500 mx-auto w-3/4 rounded-lg p-8'}>
         <ul className='flex flex-col gap-6'>
           <li
             className={

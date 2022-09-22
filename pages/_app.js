@@ -1,5 +1,5 @@
 import '../styles/globals.css';
-
+import Layout from '../components/Layout';
 import '@rainbow-me/rainbowkit/styles.css';
 
 import {
@@ -10,8 +10,6 @@ import {
 import { chain, configureChains, createClient, WagmiConfig } from 'wagmi';
 import { alchemyProvider } from 'wagmi/providers/alchemy';
 import { publicProvider } from 'wagmi/providers/public';
-import Navigation from '../components/Navigation';
-import Layout from '../components/Layout';
 
 const { chains, provider } = configureChains(
   [chain.mainnet, chain.goerli, chain.rinkeby],
@@ -31,10 +29,18 @@ const wagmiClient = createClient({
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <WagmiConfig client={wagmiClient}>
+      <RainbowKitProvider theme={darkTheme()} chains={chains}>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </RainbowKitProvider>
+    </WagmiConfig>
   );
 }
 
 export default MyApp;
+
+// <Layout>
+//   <Component {...pageProps} />
+// </Layout>

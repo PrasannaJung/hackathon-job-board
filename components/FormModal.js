@@ -1,5 +1,6 @@
 import React from 'react';
 import CloseButton from './UI/CloseButton';
+import img from '../public/bg.png';
 
 const Backdrop = props => {
   return (
@@ -12,22 +13,34 @@ const Backdrop = props => {
 
 const Form = props => {
   return (
-    <div className='bg-gradient-to-r from-violet-500 to-fuchsia-500 z-20 fixed top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 px-3 py-6 w-1/3'>
-      <form className='flex mx-auto flex-col w-3/4 '>
+    <div
+      style={{
+        backgroundImage: `url(${img.src})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center center',
+      }}
+      className=' z-20 fixed top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 px-3 py-6 w-1/3 bg-black bg-opacity-70 bg-blend-overlay'
+    >
+      <form className=' text-white flex mx-auto flex-col w-3/4 text-xl '>
         <CloseButton
           onHide={props.onHide}
           classes={'absolute top-2 right-2 text-sm h-10 hover:cursor-pointer'}
         />
 
-        <label htmlFor='company'>Company/Hirer Name:</label>
+        <label className='font-bold' htmlFor='company'>
+          Company/Hirer Name:
+        </label>
         <input
-          className={'outline-none p-1 rounded-sm text-black'}
+          className={'outline-none p-1 rounded-sm text-white '}
           type='text'
           name='company'
           id='company'
         />
 
-        <label htmlFor='pos'>Position</label>
+        <label className='font-bold mt-2' htmlFor='pos'>
+          Position
+        </label>
         <select
           name='pos'
           id='pos'
@@ -38,13 +51,15 @@ const Form = props => {
           <option value='senior'>Senior</option>
         </select>
 
-        <label htmlFor='salary'>Salary</label>
+        <label className='font-bold mt-2' htmlFor='salary'>
+          Salary<em>(In ETH)</em>
+        </label>
         <input
           className='outline-none p-1 rounded-sm text-black'
           type='number'
           name='salary'
         />
-        <p>Is your job remote? </p>
+        <p className='font-bold mt-2'>Is your job remote? </p>
         <div className={'flex items-center gap-4'}>
           <div className={'flex gap-1 items-center'}>
             <input type='radio' name='location' id='yes' />
@@ -56,8 +71,8 @@ const Form = props => {
           </div>
         </div>
 
-        <p>Skillsets you are looking for: </p>
-        <div>
+        <p className='font-bold mt-2'>Skillsets you are looking for: </p>
+        <div className='grid grid-cols-2'>
           <div>
             <input type='checkbox' name='nodejs' id='nodejs' />
             <label htmlFor='nodejs'>Node Js</label>
@@ -89,9 +104,7 @@ const Form = props => {
         </div>
 
         <button
-          className={
-            'mt-3 bg-gradient-to-r from-violet-700 to-fuchsia-900 mx-auto px-2 py-1 font-bold'
-          }
+          className={'mt-3 bg-sky-500 mx-auto px-2 py-1 font-bold'}
           type='submit'
         >
           Submit
