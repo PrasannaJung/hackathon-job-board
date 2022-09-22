@@ -23,11 +23,11 @@ Job Board is a Decentralized platform for Job Boarding.
   
   **-** Providing Intership.
 
-## How to post a job in Carrer Expo
+## How to post a job in Carrer Expo:
 
 If you visit our Website there is 2 option out there. One is for Company and other is for Applicant. If you want to post a job for Company Click on Company Tag Connect Your metamask account and Fill Up the form. If you are an applicant you can click on the applicant tag and fill up you form and Upload Your CV. So other companies can communicate with you of Future communication.
 
-## Technologies We Used
+## Technologies We Used:
 **- File Coin**- 
  File coin is a decentralized file storage system.
  In this, we are storing the data of the Company and the applicant and retrieving it when any of the users want it.
@@ -68,7 +68,7 @@ We have been using chainlink multiple times for price feeds. In this also we fet
  
   <a href="https://xmtp.com/"><img src="https://user-images.githubusercontent.com/76695769/191815641-2a075ab5-147a-4b99-9ee4-9f588841b584.png"></a>
 
-## Hurdles We faced during this project
+## Hurdles We faced during this project:
 
 **-** This was a roller-coaster journey for us. we faced a lot of back-breaking problems.The major task for us is of **Bounties** we never worked for bounties but this time we are doing it. We targeted 3-4 bounties in a single shot and we manage to figure out how to implement it.
 
@@ -81,7 +81,7 @@ We have been using chainlink multiple times for price feeds. In this also we fet
 **-** While working with the front end we faced **Hydration** error in Next.js. Which was there till Last day.
 
 
-## What We Learned
+## What We Learned:
 
 **-** The Use of File Coin. How to integrate File Coin, Store data in file Coin, and Retrieve data from file coin.
 
@@ -89,7 +89,7 @@ We have been using chainlink multiple times for price feeds. In this also we fet
 
 **-** We learned how to deploy the project on **valist**. To be honest it was quite a difficult task for us But not impossible.
 
-## What next for Career Expo
+## What next for Career Expo:
 We are planning to add a few features like:-
 - Internship Program
 - Training program
