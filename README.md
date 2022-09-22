@@ -89,3 +89,9 @@ We have been using chainlink multiple times for price feeds. In this also we fet
 
 **-** We learned how to deploy the project on **valist**. To be honest it was quite a difficult task for us But not impossible.
 
+## What next for Career Expo
+We are planning to add a few features like:-
+- Internship Program
+- Training program
+- Introducing newsletter
+- Planning to integrate other Socials.
